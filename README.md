@@ -36,7 +36,7 @@ movies-recommendation-system/
 ├── similarity.pkl          # Precomputed similarity matrix
 ├── screenshots/            # Screenshots for README
 └── README.md               # You're here!
-
+```
 
 ---
 
