@@ -17,10 +17,12 @@ This is a **content-based movie recommendation system** built using **Python** a
 ## 📸 Screenshots
 
 ### 🔍 Homepage
-![Homepage](https://github.com/omraut31/movies-recommendation-system/blob/main/screenshots/Screenshot%202025-06-26%20113039.png)
+![image](https://github.com/user-attachments/assets/db08c8f1-946e-46b1-b3cb-a285f1685c33)
+
 
 ### ✅ Recommendations Displayed
-![Recommendations](https://github.com/omraut31/movies-recommendation-system/blob/main/screenshots/Screenshot%202025-06-26%20113109.png)
+![image](https://github.com/user-attachments/assets/0d5fe25d-f842-4688-84b4-4695b239aa91)
+
 
 ---
 
@@ -35,49 +37,45 @@ movies-recommendation-system/
 ├── screenshots/            # Screenshots for README
 └── README.md               # You're here!
 
-🧠 How It Works
-1. Loads movie metadata from a CSV file
 
-2. Computes a cosine similarity matrix using TF-IDF or CountVectorizer on movie tags
+---
 
-3.When a movie is selected, the system:
+## 🧠 How It Works
 
-     a) Finds its index
+1. Load movie metadata (`movies.csv`).  
+2. **Vectorize** movie tags (TF-IDF / CountVectorizer).  
+3. Build a **cosine-similarity matrix** (saved as `similarity.pkl`).  
+4. On selection:  
+   - Locate the movie’s index.  
+   - Retrieve & sort similarity scores.  
+   - Display the top five matches.
 
-     b) Fetches similarity scores
+---
 
-     c) Sorts and returns the top 5 similar movies
-💻 Installation & Usage
-1) Clone the repository:
+## 💻 Quickstart
 
-bash
-Copy
-Edit
+Clone & run locally:
+
+~~~bash
 git clone https://github.com/omraut31/movies-recommendation-system.git
 cd movies-recommendation-system
-2) Install the required packages:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-3) Run the app:
-
-bash
-Copy
-Edit
 streamlit run app.py
+~~~
 
-🔗 Links
-📂 https://github.com/omraut31/movies-recommendation-system
+---
 
-👨‍💻 Developer: Om Raut
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Python
+- **Python 3.x**  
+- **Pandas** & **Scikit-learn** for data prep / ML  
+- **Streamlit** for the web interface
 
-Pandas
+---
 
-Scikit-learn
+## 🔗 Links
 
-Streamlit
+- **Repository:** <https://github.com/omraut31/movies-recommendation-system>  
+- **Author:** [Om Raut](https://www.linkedin.com/in/omraut31)
+
+---
