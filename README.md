@@ -43,7 +43,7 @@ movies-recommendation-system/
 ## 🧠 How It Works
 
 1. Load movie metadata (`movies.csv`).  
-2. **Vectorize** movie tags (TF-IDF / CountVectorizer).  
+2. **Vectorize** movie tags (TF-IDF).  
 3. Build a **cosine-similarity matrix** (saved as `similarity.pkl`).  
 4. On selection:  
    - Locate the movie’s index.  
