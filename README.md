@@ -31,11 +31,11 @@ This is a **content-based movie recommendation system** built using **Python** a
 ```bash
 movies-recommendation-system/
 │
-├── app.py                  # Streamlit app code
-├── movies.csv              # Dataset with metadata
-├── similarity.pkl          # Precomputed similarity matrix
-├── screenshots/            # Screenshots for README
-└── README.md               # You're here!
+├── app.py                  
+├── movies.csv              
+├── similarity.pkl          
+├── screenshots/            
+└── README.md               
 ```
 
 ---
